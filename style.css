@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#topbar {
+    background-color: antiquewhite;
+    padding: 16px;
+    margin-bottom: 50px;
+
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    cursor: pointer;
+
+}
+
+.menu-item {
+    font-size: 18px;
+    float: right;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.blog-card {
+    display: inline-block;
+    padding-left: auto;
+    background-color: lightcyan;
+    margin: 25px;
+
+}
+
+.blog-image {
+    width: 100%;
+}
+
+.blog-heading {
+    margin: 16px 16px 12px;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.9);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-overflow: clip;
+}
+
+.blog-desc {
+    margin: 12px 16px 16px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.8);
+    word-break: break-all;
+    word-wrap: break-word;
+    word-break: keep-all;
+}
